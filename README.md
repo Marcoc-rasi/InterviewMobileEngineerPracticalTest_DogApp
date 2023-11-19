@@ -1,6 +1,6 @@
 #Video App
 
-https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/2925cc2c-0216-4ff7-8d62-fc1919111679
+https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/195685ed-76c8-47de-b1af-a50dcd133191
 
 # Technical Report: Mobile Engineer Practical Test
 
