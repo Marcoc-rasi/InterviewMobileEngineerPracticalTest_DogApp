@@ -1,6 +1,6 @@
 # Informe Técnico: Mobile Engineer Practical Test
 
-En este informe, se presenta la solución para el desafío técnico de ingeniería móvil, abordando aspectos relacionados con la creación de una aplicación para mostrar una lista de objetos `Dog`.
+En este informe, se presenta la solución para el desafío técnico, abordando aspectos relacionados con la creación de una aplicación para mostrar una lista de objetos `Dog`.
 
 ## Aplicación:
 La aplicación "PracticalTest_Marcocrasi" para iOS permite a los usuarios explorar una lista de perros con detalles como nombre, descripción, edad e imágenes. La estructura `DogDataBase` gestiona la representación de datos de perros, almacenando y cargando información desde un archivo plist para garantizar persistencia. El controlador `APIRequestController` maneja las solicitudes a una API externa para obtener datos de perros y sus imágenes. La interfaz principal, gestionada por `DogsTableViewController`, ofrece funcionalidades de edición en la lista, incluida la eliminación y reordenación de elementos. Además, se han implementado pruebas unitarias para garantizar la integridad de las funciones clave de la aplicación.
@@ -26,8 +26,9 @@ Se utiliza la estructura `DogDataBase` para la persistencia de datos, almacenand
 ## Pruebas Unitarias:
 La aplicación presenta una sólida suite de pruebas unitarias que abarcan aspectos clave del código, garantizando la funcionalidad y robustez del software. Los casos de prueba cubren la inicialización y la funcionalidad de las estructuras de datos, así como el comportamiento de los controladores y la interacción con la red.
 
-## Diseño: Interfaz de Usuario:
-La interfaz de usuario sigue un diseño pixel-perfect según las especificaciones. Se han utilizado colores de fuente predefinidos para mantener la coherencia. Las pruebas de interfaz de usuario validan la correcta inicialización y funcionalidad del controlador de vista `DogsTableViewController`, asegurando una experiencia de usuario sin errores.
+## Diseño de la Interfaz de Usuario:
+La interfaz de usuario ha sido desarrollada siguiendo las directrices establecidas en el desafío. Aunque no se logró una representación exacta de acuerdo con las especificaciones, se garantizó que mantuviera una apariencia similar y que el contenido se adaptara de manera efectiva, proporcionando una visualización óptima en cualquier dispositivo. La elección de colores de fuente se basa en las paletas predefinidas en el desafío para los diversos componentes, asegurando coherencia visual.
+Las pruebas de interfaz de usuario se han enfocado en validar la inicialización adecuada y la funcionalidad del controlador de vista `DogsTableViewController`. Este enfoque garantiza una experiencia de usuario libre de errores, respaldando la integridad y eficacia del diseño implementado, que se ajusta dinámicamente a diferentes tamaños de pantalla y dispositivos.
 
 ## Solicitud de Red:
 La solicitud de información desde una red externa es esencial y se gestiona mediante el `APIRequestController`. Las funciones asincrónicas `fetchInfoDogs`, `fetchImage`, y `fetchInfoAndImages` garantizan una obtención eficiente de datos desde la API, sin bloquear la interfaz de usuario.
