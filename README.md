@@ -30,6 +30,11 @@ La aplicación presenta una sólida suite de pruebas unitarias que abarcan aspec
 La interfaz de usuario ha sido desarrollada siguiendo las directrices establecidas en el desafío. Aunque no se logró una representación exacta de acuerdo con las especificaciones, se garantizó que mantuviera una apariencia similar y que el contenido se adaptara de manera efectiva, proporcionando una visualización óptima en cualquier dispositivo. La elección de colores de fuente se basa en las paletas predefinidas en el desafío para los diversos componentes, asegurando coherencia visual.
 Las pruebas de interfaz de usuario se han enfocado en validar la inicialización adecuada y la funcionalidad del controlador de vista `DogsTableViewController`. Este enfoque garantiza una experiencia de usuario libre de errores, respaldando la integridad y eficacia del diseño implementado, que se ajusta dinámicamente a diferentes tamaños de pantalla y dispositivos.
 
+![Dogs_1](https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/647e5a25-4e94-48a9-9fe6-fc542852a610)
+![Dogs_3](https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/018fd1f0-8871-4285-b9e8-6b372a8e562d)
+![Dogs_2](https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/969bd124-1342-4894-bfa4-5d8a41c814c6)
+![Dogs_4](https://github.com/Marcoc-rasi/InterviewMobileEngineerPracticalTest_DogApp/assets/51039101/6d9dd5ae-f6c1-4ce1-8ee6-a47b823ff63c)
+
 ## Solicitud de Red:
 La solicitud de información desde una red externa es esencial y se gestiona mediante el `APIRequestController`. Las funciones asincrónicas `fetchInfoDogs`, `fetchImage`, y `fetchInfoAndImages` garantizan una obtención eficiente de datos desde la API, sin bloquear la interfaz de usuario.
 
